@@ -2,7 +2,12 @@
 
 
 ##必装(不装就不能愉快的装逼了)
+	按ctrl+~或者菜单View > Show Console打开命令窗口，粘贴以上代码并回车即可
+<code>
+	import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read()) 
+</code>
 	>package control(装了这个可以快捷键 ctrl+shift+p呼出命令行)
+
 	>emmet(自动补全 用txt写代码的请忽略)
 
 ##代码段
